@@ -5,7 +5,7 @@ layout: default
     <div class="group-article">
         <div class="row no-margin">
             <div class="col s12">
-                <h1 class="indigo-text text-darken-3 center-align thin">Recent Post</h1>
+                <h1 class="grey-text text-darken-3 center-align thin">Recent Post</h1>
                 <div class="divider"></div>
             </div>
         </div>
@@ -15,7 +15,7 @@ layout: default
             <a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="col s12">
                     <div class="list-article">
-                        <h2 class="black-text thin">{{ post.title }}</h2>
+                        <h2 class="grey-text text-darken-3 thin">{{ post.title }}</h2>
                         <p class="grey-text text-darken-1 light">Published at {{ post.date | date: "%B %-d, %Y" }}.</p>
                         <article class="grey-text text-darken-2 post-content on-index light">
                                 {{ post.excerpt | strip_html }}. .
