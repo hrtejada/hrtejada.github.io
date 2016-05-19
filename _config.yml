@@ -1,0 +1,33 @@
+# Site settings
+title: Hector Tejada
+description: > # this means to ignore newlines until "baseurl:"
+    Blog site for Hector Tejada. Who am I am and what I do. Barely starting, so content will be moving
+    relatively slow.
+    Huge thanks to codeharuka and his Jekyll-materialize work.
+url: "http://yourdomain.com"
+baseurl: ""
+logo: Hector <b>Tejada</b>
+paginate: 5
+paginate_path: "/page:num/"
+owner:
+    email: hr.tejada121@gmail.com
+    facebook:
+        show: true
+        name: "Beto Tejada"
+        url: "https://www.facebook.com/beto.tejada"
+    github:
+        show: true
+        username: "hrtejada"
+        url: "https://hrtejada.github.io"
+    twitter:
+        show: false
+        username: "betooo121"
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: "/article/:title"
+markdown: kramdown
+highlighter: pygments
+gems:
+    - jekyll-feed
+    - jekyll-paginate
