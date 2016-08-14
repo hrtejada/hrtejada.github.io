@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hola MundoX2!
+Hola Mundo!
 <br>
 <br>
 My name is Hector Roberto Tejada, but friends and family call me Beto. Feel free to call me whichever though!
